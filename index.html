@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>					<!-- remember to set role attributes for elements -->
+	<title>Roger's Animal Quiz</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<!-- Responsive viewport tag, tells small screens that it's responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+		<!--Start Page-->
+		<header role="banner">Fun Fact Animal Quiz</header>
+		<p class="caption"><i>Let's test your knowledge on the living creatures around you. Click start button below to begin your quiz!</i>
+		  <img src="https://i.ytimg.com/vi/oV_idfKcCdQ/maxresdefault.jpg" alt="animal pic">
+		  <br><button type="button" class="startthis">Start Quiz</button>
+		</p>
+		
+		<!--Questions & Feedback Page-->
+		<form class="chooseform" action="/some-server-endpoint" method="post">
+			<main class="one-main js-main" role="main"></main>	
+			  <!--insert each question in here -->
+			  <!--feedback results also shown here after each question is answered -->
+			<!-- radio buttons can tab only to 1st button, then use arrows -->
+		</form> 
+		
+		<div class="currentScore"> <!--Insert current quiz score here--> </div>
+		
+		<footer class="show-progress" role="contentinfo">
+		  <!-- Insert a current question tracker to show you're progress-->
+		</footer>	
+
+		<div class="ending">
+		  <!--Insert final results page here and restart button-->
+		</div>
+		
+	</div>
+	
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

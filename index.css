@@ -1,0 +1,188 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background: #E5F7FF;
+  font-family: "Helvetica", Arial;
+  color: #5E3131;
+  margin-top: 20px;
+}
+
+.container {
+	max-width: 750px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+header {
+	font-size: 40px;
+	text-shadow: 2px 2px;
+	text-align: center;
+}
+
+.caption {
+	font-size: 25px;
+  margin-top: 10px;
+}
+
+
+
+.startthis {            /* Start Quiz button */
+  box-shadow: 3px 3px #5E3131;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #5E3131;
+  font-size: 20px;
+  margin-top: 5px;
+  display: block;     /* In order to center button */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.startthis:hover {
+  background-color: lightgray;
+}
+
+.give-answer {            /* Answer Submit button to go to next quest */
+  box-shadow: 3px 3px #5E3131;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #5E3131;
+  font-size: 16px;
+  margin: 15px 0 0 20px;
+}
+.give-answer:hover {
+  background-color: lightgray;
+}
+
+#nextone {            /* Feedback button to go to next question */
+  box-shadow: 3px 3px #5E3131;
+  padding: 1px 6px;
+  border-radius: 3px;
+  color: #5E3131;
+  display: block;     /* Put button on next line */
+  margin-top: 5px;
+}
+
+#nextone:hover {
+  background-color: lightgray;
+}
+
+#restart {            /* Restart button to go to restart quiz */
+  box-shadow: 3px 3px #5E3131;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #5E3131;
+  font-size: 18px;
+  margin: 10px auto;
+}
+
+#restart:hover {
+  background-color: lightgray;
+}
+
+
+
+fieldset {
+	padding-top: 20px;
+	border: none;
+}
+
+img {
+  width: 100%;
+  max-width: 800px;
+}
+
+.caption img {
+  margin-top: 15px;
+}
+
+.select-one {               /* each quiz answer box display */
+	background-color: #0099E6;
+	border: 1px solid grey;
+	margin-bottom: 10px;
+	padding: 10px 10px 10px 30px;
+	font-size: larger;
+	color: #5E3131;
+	text-transform: uppercase;
+	box-shadow: 10px 10px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+ 
+
+
+.show-progress {          /*shows what question you're on */
+	margin-top: 10px;
+	font-size: 20px;
+	padding-bottom: 20px;   
+	margin-left: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Quiz questions */
+.one-main {		
+	list-style-type: none;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.question {
+  font-size: 20px;
+}
+
+.one-main input {           /* each quiz answer */
+  margin-top: 10px;
+  margin-left: -15px;       /* so each answer is aligned to right of radio button and not underneath it when on mobile screen */
+}
+
+.one-main input:focus {     /*so can see what's selected when tabbing thru */
+  outline: 2px dotted firebrick;
+}
+
+.one-main img {
+    display: block;
+    margin: 0 auto;
+    margin-left: 7px;
+}
+
+.one-main p {           /* displays results */
+  margin-top: 20px;
+  margin-left: 10px;
+  line-height: 115%;
+}
+
+.currentScore {
+  opacity: 0.70;
+  font-family: Monospace;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-left: 20px;
+  text-decoration: underline; 
+}
+
+.ending {
+  font-size: 20px;
+}
+
+/* Responsive design for mobile phones */
+@media screen and (max-width: 415px) {
+  .caption {
+    margin-left: 35px;
+  }
+  
+  .container { 
+    padding-left: 0.676%;
+    padding-right: 0.676%;
+  }
+  
+  .select-one {
+    margin-right: 45px;
+  }
+  .one-main img, p {
+    padding-right: 35px;
+  }
+}
