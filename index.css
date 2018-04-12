@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,25 +10,26 @@ body {
 }
 
 .container {
-	max-width: 750px;
-	margin: 0 auto;
-	padding-left: 20px;
-	padding-right: 20px;
+  max-width: 750px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 header {
-	font-size: 40px;
-	text-shadow: 2px 2px;
-	text-align: center;
+  font-size: 35px;
+  text-shadow: 2px 2px;
+  text-align: center;
 }
 
 h1 {
+  font-size: 25px;
   text-shadow: 1px 2px;
   text-align: center;
 }
 
 .caption {
-	font-size: 25px;
+  font-size: 25px;
   margin-top: 10px;
 }
 
@@ -91,8 +92,8 @@ h1 {
 
 
 fieldset {
-	padding-top: 20px;
-	border: none;
+  padding-top: 20px;
+  border: none;
 }
 
 img {
@@ -105,34 +106,34 @@ img {
 }
 
 .select-one {               /* each quiz answer box display */
-	background-color: #0099E6;
-	border: 1px solid grey;
-	margin-bottom: 10px;
-	padding: 10px 10px 10px 30px;
-	font-size: larger;
-	color: #5E3131;
-	text-transform: uppercase;
-	box-shadow: 10px 10px;
-	border-radius: 4px;
-	font-weight: bold;
+  background-color: #0099E6;
+  border: 1px solid grey;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 30px;
+  font-size: larger;
+  color: #5E3131;
+  text-transform: uppercase;
+  box-shadow: 10px 10px;
+  border-radius: 4px;
+  font-weight: bold;
 }
  
 
 
 .show-progress {          /*shows what question you're on */
-	margin-top: 10px;
-	font-size: 20px;
-	padding-bottom: 20px;   
-	margin-left: 20px;
-	font-weight: bold;
-	text-decoration: underline;
+  margin-top: 10px;
+  font-size: 20px;
+  padding-bottom: 20px;   
+  margin-left: 20px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* Quiz questions */
-.one-main {		
-	list-style-type: none;
-	font-weight: bold;
-	font-style: italic;
+.one-main {   
+  list-style-type: none;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .question {
@@ -161,7 +162,7 @@ img {
 }
 
 .currentScore {
-  opacity: 0.70;
+  opacity: 0.85;
   font-family: Monospace;
   font-size: 18px;
   margin-top: 40px;
