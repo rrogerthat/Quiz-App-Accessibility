@@ -9,11 +9,15 @@
 <body>
 	<div class="container">
 		<!--Start Page-->
-		<header role="banner">Fun Fact Animal Quiz</header>
-		<p class="caption"><i>Let's test your knowledge on the living creatures around you. Click start button below to begin your quiz!</i>
-		  <img src="https://i.ytimg.com/vi/oV_idfKcCdQ/maxresdefault.jpg" alt="animal pic">
-		  <br><button type="button" class="startthis">Start Quiz</button>
-		</p>
+		<header role="banner">Fun Fact Animal Quiz
+			<h1>Let the Games Begin!</h1>
+		</header>
+		<section role="complementary">
+  		<p class="caption"><i>Let's test your knowledge on the living creatures around you. Click start button below to begin your quiz!</i>
+  		  <img src="https://i.ytimg.com/vi/oV_idfKcCdQ/maxresdefault.jpg" alt="animal pic">
+  		  <br><button type="button" class="startthis">Start Quiz</button>
+  		</p>
+		</section>
 		
 		<!--Questions & Feedback Page-->
 		<form class="chooseform" action="/some-server-endpoint" method="post">
@@ -23,15 +27,19 @@
 			<!-- radio buttons can tab only to 1st button, then use arrows -->
 		</form> 
 		
-		<div class="currentScore"> <!--Insert current quiz score here--> </div>
+		<section role="region">
+  		<div class="currentScore"> <!--Insert current quiz score here--> </div>
+		</section>
 		
 		<footer class="show-progress" role="contentinfo">
 		  <!-- Insert a current question tracker to show you're progress-->
 		</footer>	
 
+		<section role="region">
 		<div class="ending">
 		  <!--Insert final results page here and restart button-->
 		</div>
+		</section>
 		
 	</div>
 	
